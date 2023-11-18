@@ -1,13 +1,16 @@
 # My windows optimizations
 
 ## Running Chris Titus windows debloat
+
+Credit: https://github.com/ChrisTitusTech/winutil
+
 1. Launch terminal/powershell as admin
-2. run the command: `iwr -useb https://christitus.com/win | iex`
+2. Run the command: `iwr -useb https://christitus.com/win | iex`
 3. Under "Tweaks" select the "Desktop preset" and press "Run tweaks".
 4. Under "Updates" select the "Security (Recommended) Settings" button.
 
 ## Intelligent standby list cleaner (ISLC)
-1. Download ISLC (https://www.wagnardsoft.com/forums/viewtopic.php?t=1256) or take version from repo.
+1. Download [ISLC](https://www.wagnardsoft.com/forums/viewtopic.php?t=1256) or take version from repo.
 2. Start with the PC
 3. Change "The list size is at least" to 1024
 4. Change "Free memory is lower than" to ~95% of your total RAM. So for 32GB ram, make it 30000mb, 16GB --> 15000MB etc.
@@ -16,7 +19,7 @@
 
 ## Windows tweaks
 
-1. Download and install ProcessLasso (https://bitsum.com/)[https://bitsum.com/] (software to deeply control processes)
+1. Download and install ProcessLasso [https://bitsum.com/](https://bitsum.com/) (software to deeply control processes)
 2. Open ProcessLasso
 3. Open the "Main"-dropdown → "Active power profile" → "Bitsum highest performance"
 3. Open the game you wanna play
@@ -26,15 +29,18 @@
 7. Reboot PC
 
 ## Graphics driver installation
-1. Download and install DDU (Display Driver Uninstaller)[https://www.wagnardsoft.com/forums/viewtopic.php?t=4316]
+1. Download and install DDU [(]Display Driver Uninstaller](https://www.wagnardsoft.com/forums/viewtopic.php?t=4316)
 2. Copy the settings below
+
 ![Settings](https://lh6.googleusercontent.com/uzb_bEKtYPn2xDNgPmPxZJ-8c-IHmJZDcXNw0KmCXjQjHjPRCydZZHsIyxpWqmz5KfOWRHP1KCFKEQt4Z6XmVtaevjq7vuce7J-CLxGgNAI23lweBY6biSbZOzU1SL5L5z80Yy_dmemIWkezkvlbCCA)
+
 3. Download and install (NVCLEANINSTALL)[https://www.techpowerup.com/download/techpowerup-nvcleanstall/] (Lets you customize and install the Nvidia driver package)
 4. Open the program and select Manually select a driver version
 5. Select the latest driver and make sure it says 64 bit Desktop
 6. Click Next and do not tick any options and then click Next again
 7. Copy the settings you see below on the Installation Tweaks screen then click Next
 8. Click Next and then Install and wait for the installation to complete
+
 ![Settings](https://lh6.googleusercontent.com/uzb_bEKtYPn2xDNgPmPxZJ-8c-IHmJZDcXNw0KmCXjQjHjPRCydZZHsIyxpWqmz5KfOWRHP1KCFKEQt4Z6XmVtaevjq7vuce7J-CLxGgNAI23lweBY6biSbZOzU1SL5L5z80Yy_dmemIWkezkvlbCCA)
 
 ## Extra driver optimizations - Message-signaled interrupts
