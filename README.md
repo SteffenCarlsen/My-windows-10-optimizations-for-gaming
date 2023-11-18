@@ -50,3 +50,24 @@ You can read about MSI mode here: https://old.reddit.com/r/OptimizedGaming/comme
 3. Find your GPU and turn on MSI mode if supported
 4. Set prioity to high
 5. Apply and restart
+
+## Disable defender
+Disable defender using https://github.com/qtkite/defender-control
+
+## Turn on Hardware-accelerated GPU scheduling
+
+1. Press the Start button and search for Graphics Settings
+2. Then click to turn on Hardware-accelerated GPU Scheduling
+3. Scroll down and view the settings for "graphics performance preference" from there you can choose the app to set your preference. For Nvidia, this is the Nvidia Control panel. You can select this as a desktop app or Microsoft Store app via the dropdown
+4. Click on the app, click options and select high-performance
+5. Repeat for any game where you want maximum performance
+
+## Nvidia settings
+![Nvidia settings 1](Images\1.png?raw=true "nvidia1")
+![Nvidia settings 2](Images\2.png?raw=true "nvidia2")
+![Nvidia settings 3](Images\3.png?raw=true "nvidia3")
+
+## BIOS
+Enable “resizable BAR” and enable “above 4G” in BIOS. (Only for Intel 10th gen or newer, or AMD Zen 3 or newer. Applicable for Nvidia 30-series or newer only).
+
+Remember to at the very minimum enable XMP profile.
