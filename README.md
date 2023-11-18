@@ -63,9 +63,9 @@ Disable defender using https://github.com/qtkite/defender-control
 5. Repeat for any game where you want maximum performance
 
 ## Nvidia settings
-![Nvidia settings 1](Images\1.png?raw=true "nvidia1")
-![Nvidia settings 2](Images\2.png?raw=true "nvidia2")
-![Nvidia settings 3](Images\3.png?raw=true "nvidia3")
+![Nvidia settings 1](Images/1.png?raw=true "nvidia1")
+![Nvidia settings 2](Images/2.png?raw=true "nvidia2")
+![Nvidia settings 3](Images/3.png?raw=true "nvidia3")
 
 ## BIOS
 Enable “resizable BAR” and enable “above 4G” in BIOS. (Only for Intel 10th gen or newer, or AMD Zen 3 or newer. Applicable for Nvidia 30-series or newer only).
