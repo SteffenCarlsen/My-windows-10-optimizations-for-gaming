@@ -18,8 +18,7 @@ Credit: https://github.com/ChrisTitusTech/winutil
 6. Press Start
 
 ## Windows tweaks
-
-1. Download and install ProcessLasso [https://bitsum.com/](https://bitsum.com/) (software to deeply control processes)
+1. Download and install [ProcessLasso](https://bitsum.com/) (software to deeply control processes)
 2. Open ProcessLasso
 3. Open the "Main"-dropdown → "Active power profile" → "Bitsum highest performance"
 3. Open the game you wanna play
@@ -66,6 +65,10 @@ Disable defender using https://github.com/qtkite/defender-control
 ![Nvidia settings 1](Images/1.png?raw=true "nvidia1")
 ![Nvidia settings 2](Images/2.png?raw=true "nvidia2")
 ![Nvidia settings 3](Images/3.png?raw=true "nvidia3")
+
+### Nvidia colors
+1. Goto Video -> Adjust video color settings
+2. For each monitor, adjust color adjustments to use NVIDIA settings and the full color range.
 
 ## BIOS
 Enable “resizable BAR” and enable “above 4G” in BIOS. (Only for Intel 10th gen or newer, or AMD Zen 3 or newer. Applicable for Nvidia 30-series or newer only).
