@@ -33,7 +33,7 @@ Credit: https://github.com/ChrisTitusTech/winutil
 
 ![Settings](https://lh6.googleusercontent.com/uzb_bEKtYPn2xDNgPmPxZJ-8c-IHmJZDcXNw0KmCXjQjHjPRCydZZHsIyxpWqmz5KfOWRHP1KCFKEQt4Z6XmVtaevjq7vuce7J-CLxGgNAI23lweBY6biSbZOzU1SL5L5z80Yy_dmemIWkezkvlbCCA)
 
-3. Download and install (NVCLEANINSTALL)[https://www.techpowerup.com/download/techpowerup-nvcleanstall/] (Lets you customize and install the Nvidia driver package)
+3. Download and install [NVCLEANINSTALL](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) (Lets you customize and install the Nvidia driver package)
 4. Open the program and select Manually select a driver version
 5. Select the latest driver and make sure it says 64 bit Desktop
 6. Click Next and do not tick any options and then click Next again
