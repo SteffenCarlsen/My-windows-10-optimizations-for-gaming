@@ -28,8 +28,8 @@ Credit: https://github.com/ChrisTitusTech/winutil
 7. Reboot PC
 
 ## Graphics driver installation
-1. Download and install DDU [(]Display Driver Uninstaller](https://www.wagnardsoft.com/forums/viewtopic.php?t=4316)
-2. Copy the settings below
+1. Download and install DDU [Display Driver Uninstaller](https://www.wagnardsoft.com/forums/viewtopic.php?t=4316)
+2. Copy the settings below if you want full optimizations, otherwise pick and choose on demand.
 
 ![Settings](https://lh6.googleusercontent.com/uzb_bEKtYPn2xDNgPmPxZJ-8c-IHmJZDcXNw0KmCXjQjHjPRCydZZHsIyxpWqmz5KfOWRHP1KCFKEQt4Z6XmVtaevjq7vuce7J-CLxGgNAI23lweBY6biSbZOzU1SL5L5z80Yy_dmemIWkezkvlbCCA)
 
