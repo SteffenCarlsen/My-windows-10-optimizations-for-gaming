@@ -52,6 +52,8 @@ You can read about MSI mode here: https://old.reddit.com/r/OptimizedGaming/comme
 ## Disable defender
 Disable defender using https://github.com/qtkite/defender-control
 
+Please don't do this as an inexperienced PC user.
+
 ## Turn on Hardware-accelerated GPU scheduling
 
 1. Press the Start button and search for Graphics Settings
