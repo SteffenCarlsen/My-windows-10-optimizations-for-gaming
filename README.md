@@ -85,7 +85,8 @@ To the best of my knowledge, modern Intel CPUs are already pretty much already p
 
 ### GPU
 Download [MSI afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)
-If this is your first GPU overclock adventure, start with this video: [MSI Afterburner Settings Explained / AMD and NVIDIA by Jayztwocents]([https://www.wagnardsoft.com/forums/viewtopic.php?t=1256](https://www.youtube.com/watch?v=6_Me603fnq8)
+If this is your first GPU overclock adventure, start with this video: [MSI Afterburner Settings Explained / AMD and NVIDIA by Jayztwocents](https://www.youtube.com/watch?v=6_Me603fnq8)
+
 ![image](https://github.com/SteffenCarlsen/My-windows-10-optimizations-for-gaming/assets/9629847/f76d65f4-7d8c-4c9a-857d-20f895a50bbd)
 
 1. Find the core clock and increase it by 5% of the default value. Put the power limit slider to its maximum value. You may unlink it from temperature and set the temperature limit to 80C for Nvidia, 90C for AMD. Apply the settings. After that run 1 pass of the Unigine benchmark on maximum settings in fullscreen mode to test GPU for stability (signs of instability: driver or application crashes, blackout, graphical artifacts, texture shimmering or missing textures).
