@@ -22,10 +22,9 @@ Credit: https://github.com/ChrisTitusTech/winutil
 2. Open ProcessLasso
 3. Open the "Main"-dropdown → "Active power profile" → "Bitsum highest performance"
 3. Open the game you wanna play
-4. In your processes right-click on it and navigate CPU Affinity → Always → Select CPU affinity
-5. Right-click on game.exe again, then CPU Priority → Always → High and then Uncheck Windows dynamic thread priority boosts enabled
-6. Right-click on game.exe again and click Disable SMT or Disable Hyper-Threading and then uncheck CPU 0 and CPU 1
-7. Reboot PC
+4. Right-click on game.exe again, then CPU Priority → Always → High and then Uncheck Windows dynamic thread priority boosts enabled
+5. Only do this step if you have a CPU with a lot of virtual cores (Say a 5900x). Right-click on game.exe again and CPU Affinity → Always → click Disable SMT or Disable Hyper-Threading and then uncheck CPU 0 and CPU 1
+6. Reboot PC
 
 ## Graphics driver installation
 1. Download and install DDU [Display Driver Uninstaller](https://www.wagnardsoft.com/forums/viewtopic.php?t=4316)
@@ -44,7 +43,7 @@ Credit: https://github.com/ChrisTitusTech/winutil
 
 ## Extra driver optimizations - Message-signaled interrupts
 You can read about MSI mode here: https://old.reddit.com/r/OptimizedGaming/comments/107blhi/msi_mode_on_gpus/
-1. Download MSI utility from this repository
+1. Download MSI utility from this repository (Or from the mediafire linked in the reddit post)
 2. Open as administator
 3. Find your GPU and turn on MSI mode if supported
 4. Set prioity to high
@@ -73,4 +72,28 @@ Disable defender using https://github.com/qtkite/defender-control
 ## BIOS
 Enable “resizable BAR” and enable “above 4G” in BIOS. (Only for Intel 10th gen or newer, or AMD Zen 3 or newer. Applicable for Nvidia 30-series or newer only).
 
-Remember to at the very minimum enable XMP profile.
+## Overlocking
+### RAM
+Remember to at the very minimum enable XMP profile. Unless you know what you're doing, I'd probably leave RAM alone :)
+
+### CPU
+You can gain between ~5-20% overall performance by overlocking your hardware. For AMD Ryzen CPUs look into PBO, can specifically recommend this guide: https://www.youtube.com/watch?v=dU5qLJqTSAc&
+
+### GPU
+Download [MSI afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)
+If this is your first GPU overclock adventure, start with this video: [MSI Afterburner Settings Explained / AMD and NVIDIA! by @Jayztwocents]([https://www.wagnardsoft.com/forums/viewtopic.php?t=1256](https://www.youtube.com/watch?v=6_Me603fnq8))  
+![image](https://github.com/SteffenCarlsen/My-windows-10-optimizations-for-gaming/assets/9629847/f76d65f4-7d8c-4c9a-857d-20f895a50bbd)
+
+1. Find the core clock and increase it by 5% of the default value. Put the power limit slider to its maximum value. You may unlink it from temperature and set the temperature limit to 80C for Nvidia, 90C for AMD. Apply the settings. After that run 1 pass of the Unigine benchmark on maximum settings in fullscreen mode to test GPU for stability (signs of instability: driver or application crashes, blackout, graphical artifacts, texture shimmering or missing textures).
+
+2. If you didn't get any signs of instability increase the core clock by 10 MHz and run the benchmark for testing purposes again - you should see the score increase by a little bit in the end of the pass. Keep doing that until your system becomes unstable. Once it does, drop back down 10 MHz (to your last stable configuration). You're about to check if it's indeed stable and you can set on it. Re-run a few more benchmark passes to make sure it's stable. If it's not, drop another 10 MHz and keep testing. After you found the sweet spot your core clock is set. Do not alter it anymore.
+
+3. Increase your memory clock by 100mhz and run the benchmark again. Follow the same testing procedure and do that until you become unstable. Once you do, drop the memory clock by 25 MHz and follow the same testing procedure as with the core clock. After you're done, your memory clock is set as well.
+
+4. Run the benchmark and check the highest temperature that your GPU reaches. If it's over 90C (AMD) increase the fan speed until it's below that. For Nvidia increase fan speed until the temperatures are below 80C to prevent thermal throttling. It's also a very good thing to set up a custom fan curve.
+
+5. You might also want to download a piece of dedicated stress-testing (burning) software like MSI Kombustor/FurMark/OCCT and let it run for some 10-20 minutes at highest settings. It will really push your GPU and test it for stability further. Be wary of the temperatures.
+
+NOTE: It might happen that some instabilities will pop up after hours of intensive GPU usage (like gaming or rendering). Don't worry. Drop the OC down just one more increment (either memory or core, depending on what will work to make GPU stable) and keep at it! 
+
+
